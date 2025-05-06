@@ -1,0 +1,15 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "config": {
+      "nixpacks": {
+        "build": {
+          "commands": [
+            "apt-get update",
+            "apt-get install -y chromium chromium-driver"
+          ]
+        }
+      }
+    }
+  }
+}
